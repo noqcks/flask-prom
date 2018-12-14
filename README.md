@@ -65,3 +65,6 @@ since it was no longer being maintained.
 # License
 
 [BSD-3](LICENSE)
+
+# TODO
+- automatic release to GitHub/PyPi on new tag
