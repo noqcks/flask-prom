@@ -4,8 +4,8 @@ This will allow you to easily add Prometheus metrics to your Flask applications.
 
 This extension instruments every flask route and exports the following metrics:
 
-Histogram: <myapp_flask_request_latency_seconds> {'endpoint', 'method'}
-Summary: <myapp_flask_request_count> {'endpoint','method','http_status'}
+- Histogram: `<myapp_flask_request_latency_seconds> {'endpoint', 'method'}`
+- Summary: `<myapp_flask_request_count> {'endpoint','method','http_status'}`
 
 # Install
 
