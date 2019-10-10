@@ -2,7 +2,7 @@ import time
 from flask import request
 from prometheus_client import Counter, Histogram
 from prometheus_client import start_http_server, make_wsgi_app
-from werkzeug.wsgi import DispatcherMiddleware
+from werkzeug.wsgi.middleware.dispatcher import DispatcherMiddleware
 
 FLASK_REQUEST_ENDPOINT_SENTINEL = "-"
 
